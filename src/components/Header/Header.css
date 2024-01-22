@@ -1,0 +1,53 @@
+.h-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(216, 211, 211);
+    cursor: pointer;
+
+}
+
+.h-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.h-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 10px;
+    font-weight: 600;
+    
+}
+
+.button {
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.button Button {
+    color: green;
+}
+
+.h-container span{
+    font-size: 10px;
+    color: #fff;
+    font-weight: 600;
+    
+}

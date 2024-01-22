@@ -1,0 +1,42 @@
+.hero-container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* .first-side {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+} */
+
+.first-side h2 {
+    color: green;
+    font-weight: 800;
+}
+
+.first-side span {
+    color: red;
+    font-weight: 800;
+}
+
+.first-side p {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.first-side Button {
+    margin-top: 1rem;
+    color: green;
+}
+
+.second-side img{
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}
